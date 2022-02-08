@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "66fc0d73-657e-48f9-8695-8880730da582",
+		"name": "toyRobot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/report",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "place",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/place?x=1&y=1&face=east",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"place"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "1"
+						},
+						{
+							"key": "y",
+							"value": "1"
+						},
+						{
+							"key": "face",
+							"value": "east"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "right",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/right",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"right"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "left",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/left",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"left"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "move",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/move",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"move"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
